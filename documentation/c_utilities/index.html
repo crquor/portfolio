@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Utilities Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .function {
+            margin-bottom: 2rem;
+        }
+
+        .function h2 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .function p {
+            margin: 0.5rem 0;
+        }
+
+        .function code {
+            background: #eee;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        .social i{
+            color: #fff;
+            font-size: 30px;
+        }
+        .social li{
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>C Utilities Documentation</h1>
+    </header>
+
+    <div class="container">
+        <div id="swap" class="function">
+            <h2>Swap</h2>
+            <p>This function can be used to swap the values of two variables.</p>
+            <p>Inputs: <code>int *a, int *b</code></p>
+            <p>Usage: <code>swap(&a, &b);</code></p>
+        </div>
+
+        <div id="isPrime" class="function">
+            <h2>Is Prime</h2>
+            <p>This function returns true if the number is a prime number, and it returns false if the given number is not a prime number</p>
+            <p>Inputs: <code>int num</code></p>
+            <p>Usage: <code>isPrime(num);</code></p>
+        </div>
+
+        <div id="isArmstrong" class="function">
+            <h2>Is Armstrong</h2>
+            <p>This function returns true if the number is a armstrong number, and it returns false if the given number is not a armstrong number</p>
+            <p>Inputs: <code>int num</code></p>
+            <p>Usage: <code>isArmstrong(num);</code></p>
+        </div>
+
+        <div id="isPalindrome" class="function">
+            <h2>Is Palindrome</h2>
+            <p>This function returns true if the number is a palindrome number, and it returns false if the given number is not a palindrome number</p>
+            <p>Inputs: <code>int num</code></p>
+            <p>Usage: <code>isPalindrome(num);</code></p>
+        </div>
+
+        <div id="reverseArray" class="function">
+            <h2>Reverse Array</h2>
+            <p>This function reverses the elements of a single-dimension numeric array horizontally.</p>
+            <p>Inputs: <code>int arr[], int size</code></p>
+            <p>Usage: <code>reverseArray(arr, size);</code></p>
+        </div>
+        </div>
+
+    <footer class = "social">
+        <li><a href="https://twitter.com/crquor"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/crquor"><i class="fa fa-github"></i></a></li>        
+    </footer>
+</body>
+
+</html>
