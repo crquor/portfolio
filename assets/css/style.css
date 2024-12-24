@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /*!
@@ -8,6 +8,7 @@
 
 body {
     font-family: "Open Sans", serif;
+    font-display: swap;
     margin: 0;
     padding: 0;
     line-height: 1.6;
