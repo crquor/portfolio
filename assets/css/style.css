@@ -1,8 +1,8 @@
 :root {
-    --body-bg-color: #0c252f;
+    --body-bg-color: #212529;
     --primary-color: #bdddff;
     --button-hover-txt-color: #253648;
-    --box-border-color: #2c3742;
+    --box-border-color: #495057;
     --tags-archive-color: #d29922;
     --tags-language-color: #3572a5;
     --tags-muted-color: #9198a1;
@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Lato', system-ui !important;
-    background-color:#212529 !important;
+    background-color: var(--body-bg-color) !important;
     color: #fff;
     line-height: 1.6;
 }
@@ -144,7 +144,7 @@ a {
 }
 
 .project-card {
-    border: 2px solid #495057;
+    border: 2px solid var(--box-border-color);
     border-radius: 12px;
     padding: 1.5rem;
     transition: all 0.3s;
